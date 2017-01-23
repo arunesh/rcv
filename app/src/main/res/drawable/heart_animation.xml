@@ -1,0 +1,11 @@
+<animation-list android:id="@+id/heart_anim"
+    android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:drawable="@drawable/frame_0_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_4_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_8_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_9_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_13_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_17_delay" android:duration="500" />
+     <item android:drawable="@drawable/frame_18_delay" android:duration="500" />
+ </animation-list>
