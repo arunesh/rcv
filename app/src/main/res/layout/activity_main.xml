@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="A demo of animation over a Scrollview"
         android:id="@+id/textView" />
 
     <HorizontalScrollView
@@ -37,7 +37,7 @@
                 android:id="@+id/profile_image"
                 android:layout_width="196dp"
                 android:layout_height="196dp"
-                android:src="@drawable/md"
+                android:src="@drawable/profile_placeholder"
                 app:civ_border_width="2dp"
                 android:layout_margin="10dp"
                 app:civ_border_color="#FF000000"/>
@@ -47,7 +47,7 @@
                 android:id="@+id/profile_image2"
                 android:layout_width="196dp"
                 android:layout_height="196dp"
-                android:src="@drawable/md"
+                android:src="@drawable/profile_placeholder"
                 app:civ_border_width="2dp"
                 android:layout_margin="10dp"
                 app:civ_border_color="#FF000000"/>
@@ -57,7 +57,7 @@
                 android:id="@+id/profile_image3"
                 android:layout_width="196dp"
                 android:layout_height="196dp"
-                android:src="@drawable/md"
+                android:src="@drawable/profile_placeholder"
                 app:civ_border_width="2dp"
                 android:layout_margin="10dp"
                 app:civ_border_color="#FF000000"/>
@@ -75,12 +75,11 @@
         android:id="@+id/heartsIv" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:srcCompat="@drawable/arrow45trans"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_marginEnd="56dp"
+        android:layout_alignParentLeft="true"
         android:id="@+id/arrowIv" />
 
 </RelativeLayout>
