@@ -5,6 +5,3 @@ correctly.
 
 Here is the simple animation ![it does](anim-demo.gif).
 
-commit 1
-commit 2
-
